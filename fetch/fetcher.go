@@ -36,7 +36,7 @@ import (
 	"github.com/hhq163/v8go-polyfills/fetch/internal"
 	. "github.com/hhq163/v8go-polyfills/internal"
 
-	"github.com/hhq163/v8go"
+	"rogchap.com/v8go"
 )
 
 const (
