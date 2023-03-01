@@ -25,8 +25,8 @@ package main
 import (
 	"fmt"
 
-	"go.kuoruan.net/v8go-polyfills/base64"
-	"rogchap.com/v8go"
+	"github.com/hhq163/v8go"
+	"github.com/hhq163/v8go-polyfills/base64"
 )
 
 func main() {
