@@ -3,10 +3,11 @@
 ## Install
 
 ```shell
-go get -u go.kuoruan.net/v8go-polyfills
+go get -u github.com/hhq163/v8go-polyfills
 ```
 
 > This module uses Golang [embed](https://golang.org/pkg/embed/), so requires Go version 1.16
+> because should use v8go-polyfills and a modified version of github.com/rogchap/v8go, so forked v8go-polyfills
 
 ## Polyfill List
 
@@ -32,8 +33,8 @@ import (
 	"fmt"
 	"time"
 
-	"go.kuoruan.net/v8go-polyfills/fetch"
-	"rogchap.com/v8go"
+	"github.com/hhq163/v8go-polyfills/fetch"
+	"github.com/hhq163/v8go"
 )
 
 func main() {
