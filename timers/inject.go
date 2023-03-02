@@ -25,7 +25,7 @@ package timers
 import (
 	"fmt"
 
-	"rogchap.com/v8go"
+	"github.com/hhq163/v8go"
 )
 
 func InjectTo(iso *v8go.Isolate, global *v8go.ObjectTemplate) error {

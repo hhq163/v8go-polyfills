@@ -30,7 +30,7 @@ import (
 	"github.com/hhq163/v8go-polyfills/timers"
 	"github.com/hhq163/v8go-polyfills/url"
 
-	"rogchap.com/v8go"
+	"github.com/hhq163/v8go"
 )
 
 func InjectToGlobalObject(iso *v8go.Isolate, global *v8go.ObjectTemplate, opt ...interface{}) error {
