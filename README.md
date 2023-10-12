@@ -34,7 +34,7 @@ import (
 	"time"
 
 	"github.com/hhq163/v8go-polyfills/fetch"
-	"github.com/hhq163/v8go"
+	"rogchap.com/v8go"
 )
 
 func main() {

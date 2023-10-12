@@ -28,7 +28,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/hhq163/v8go"
+	"rogchap.com/v8go"
 )
 
 func TestNewFetcher(t *testing.T) {

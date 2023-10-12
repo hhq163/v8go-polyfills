@@ -1,4 +1,4 @@
-github.com/hhq163/v8go v0.5.2-0.20230301094724-8ae4450ec571 h1:htJwLQ/92TswL33mI8Cxof1RAtPyMdwsQOtbH93cAA0=
-github.com/hhq163/v8go v0.5.2-0.20230301094724-8ae4450ec571/go.mod h1:EEBwwu9IBUdRAg95ZKDThFfKrLQXYTYxM+gXm8nhSUk=
-github.com/hhq163/v8go v0.7.1-0.20230302085511-2695031d5664 h1:EkYASq94u205FplUF1EqZoepY768Z5Ib0jJDEfgKReE=
-github.com/hhq163/v8go v0.7.1-0.20230302085511-2695031d5664/go.mod h1:FaqyGtdNDZPwVkb7jMUv+ET4QRW189R4CtfMab0bvcw=
+rogchap.com/v8go v0.8.0 h1:/crDEiga68kOtbIqw3K9Rt9OztYz0LhAPHm2e3wK7Q4=
+rogchap.com/v8go v0.8.0/go.mod h1:MxgP3pL2MW4dpme/72QRs8sgNMmM0pRc8DPhcuLWPAs=
+rogchap.com/v8go v0.9.0 h1:wYbUCO4h6fjTamziHrzyrPnpFNuzPpjZY+nfmZjNaew=
+rogchap.com/v8go v0.9.0/go.mod h1:MxgP3pL2MW4dpme/72QRs8sgNMmM0pRc8DPhcuLWPAs=

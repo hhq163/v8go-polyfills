@@ -26,7 +26,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hhq163/v8go"
+	"rogchap.com/v8go"
 )
 
 func TestInject(t *testing.T) {
@@ -35,11 +35,24 @@ func TestInject(t *testing.T) {
 	iso := v8go.NewIsolate()
 	ctx := v8go.NewContext(iso)
 
-	if err := InjectTo(ctx, WithOutput(os.Stdout)); err != nil {
+	// if err := InjectTo(ctx, WithOutput(os.Stdout)); err != nil {
+	// 	t.Error(err)
+	// }
+
+	logConsole := NewConsole(WithOutput(os.Stdout))
+	errConsole := NewConsole(WithOutput(os.Stdout), WithMethodName("error"))
+	errWarn := NewConsole(WithOutput(os.Stdout), WithMethodName("warn"))
+
+	if err := InjectMultipleTo(ctx, logConsole, errConsole, errWarn); err != nil {
 		t.Error(err)
 	}
 
 	if _, err := ctx.RunScript("console.log(1111)", ""); err != nil {
 		t.Error(err)
 	}
+
+	if _, err := ctx.RunScript("console.err(222)", ""); err != nil {
+		t.Error(err)
+	}
+
 }
